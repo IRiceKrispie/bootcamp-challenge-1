@@ -1,30 +1,30 @@
-* {
+* { /*universal selector*/
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-body {
+body { /*body tag selector which sets a background color for the whole page */
     background-color: #d9dcd6;
 }
 
-.header {
+.header { /*header class selector that sets padding and font family for anything with the header class. This background color overrides the color from the body selector */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+.header h1 { /*class selector that applies to any h1 tags within a tag with the header class selector */
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+.header h1 .seo { /* .seo class to change the font color. Used inside a span tag in our html*/
     color: #d9dcd6;
 }
 
-.header nav {
+.header nav { /*class selector that applies to nav tags inside of a tag with header class selector */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +32,11 @@ body {
     font-size: 20px;
 }
 
-.header nav ul {
+.header nav ul { /* changes the list style of our unordered list*/
     list-style-type: none;
 }
 
-.header nav ul li {
+.header nav ul li { /* list items our inline block*/
     display: inline-block;
     margin-left: 25px;
 }
