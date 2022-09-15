@@ -7,4 +7,4 @@
 * The Style sheet includes comments detailing what each rule does
 ## Git
 * Repo: https://github.com/IRiceKrispie/bootcamp-challenge-1
-* Github live page: 
+* Github live page: https://iricekrispie.github.io/bootcamp-challenge-1/
